@@ -86,3 +86,11 @@ button:hover {
     margin-top: 20px;
     color: red;
 }
+
+/* Thank you page styles */
+.thank-you-message {
+    font-size: 1.5em;
+    color: #28a745;
+    margin-top: 20px;
+}
+
