@@ -22,6 +22,12 @@ document
       errorMessages.push("Phone number must be in the format (123) 456-7890 .");
     }
     
+    // Event Date Validation: Valid date in MM/DD/YYYY format
+    const eventDate = document.getElementById("eventDate").value;
+    if (!/^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$/.test(eventDate)) {
+      errorMessages.push("Event date must be in MM/DD/YYYY format.");
+    }
+    
     // Display error messages or submit form if valid
     const errorMessagesContainer = document.getElementById("errorMessages");
     errorMessagesContainer.innerHTML = "";
