@@ -16,6 +16,12 @@ document
       errorMessages.push("Invalid email format - abc@gmail.com");
     }
 
+    // Phone Number Validation: Format (123) 456-7890
+    const phone = document.getElementById("phone").value;
+    if (!/^\(\d{3}\) \d{3}-\d{4}$/.test(phone)) {
+      errorMessages.push("Phone number must be in the format (123) 456-7890 .");
+    }
+    
     // Display error messages or submit form if valid
     const errorMessagesContainer = document.getElementById("errorMessages");
     errorMessagesContainer.innerHTML = "";
