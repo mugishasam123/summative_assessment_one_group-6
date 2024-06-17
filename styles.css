@@ -53,3 +53,11 @@ label {
     font-weight: bold;
     color: #8e24aa; /* Violet color for labels */
 }
+
+input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s ease;
+}
