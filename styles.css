@@ -15,6 +15,8 @@ body {
 }
 
 
+
+
 /* Container styles */
 .container, .thank-you-container {
     max-width: 600px;
@@ -24,4 +26,18 @@ body {
     background-color: #ffffff; /* White background for the form container */
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Heading styles */
+h1, h2 {
+    text-align: center;
+    color: #8e24aa; /* Violet color for headings */
+}
+
+.container > p{
+    text-align: center;
+    line-height: 4%;
+    font-size: large;
+    font-weight: 400;
 }
