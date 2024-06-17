@@ -22,6 +22,18 @@ document
       errorMessages.push("Phone number must be in the format (123) 456-7890 .");
     }
     
+    // Event Date Validation: Valid date in MM/DD/YYYY format
+    const eventDate = document.getElementById("eventDate").value;
+    if (!/^(0[1-9]|1[0-2])\/(0[1-9]|[12][0-9]|3[01])\/\d{4}$/.test(eventDate)) {
+      errorMessages.push("Event date must be in MM/DD/YYYY format.");
+    }
+
+    // Number of Tickets Validation: Number between 1 and 10
+    const tickets = document.getElementById("tickets").value;
+    if (!(tickets >= 1 && tickets <= 10)) {
+      errorMessages.push("Number of tickets must be between 1 and 10.");
+    }
+    
     // Display error messages or submit form if valid
     const errorMessagesContainer = document.getElementById("errorMessages");
     errorMessagesContainer.innerHTML = "";
