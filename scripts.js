@@ -3,11 +3,17 @@ document
   .addEventListener("submit", function (event) {
     event.preventDefault();
     let errorMessages = [];
-    
+
     // Name Validation: Letters and spaces only
     const name = document.getElementById("name").value;
     if (!/^[a-zA-Z\s]+$/.test(name)) {
       errorMessages.push("Name can only contain letters and spaces.");
+    }
+
+    //Email Validation: Valid email format
+    const email = document.getElementById("email").value;
+    if (!/^[^A-Z\s@]+@[^A-Z\s@]+\.[^A-Z\s@]+$/.test(email)) {
+      errorMessages.push("Invalid email format - abc@gmail.com");
     }
 
     // Display error messages or submit form if valid
