@@ -1,0 +1,27 @@
+/* Body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fce4ec; /* Light pink background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/PJ2xwnJX/pexels-pixabay-206359-1.jpg");
+    background-size: cover;
+  
+}
+
+
+/* Container styles */
+.container, .thank-you-container {
+    max-width: 600px;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the form container */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
