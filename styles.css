@@ -65,3 +65,14 @@ input {
 input:focus {
     border-color: #8e24aa; /* Violet border on focus */
 }
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e91e63; /* Pink button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
