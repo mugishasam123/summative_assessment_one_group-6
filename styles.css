@@ -76,3 +76,13 @@ button {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+button:hover {
+    background-color: #d81b60; /* Darker pink on hover */
+}
+
+/* Error messages */
+#errorMessages {
+    margin-top: 20px;
+    color: red;
+}
