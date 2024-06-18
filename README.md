@@ -1,1 +1,1 @@
-# summative_assessment_one_group-6
+Creating a single web page that includes a form with multiple input fields, applying HTML, CSS, and JavaScript to design and build the form. A key part of the assignment is to implement input validation and sanitization using JavaScript regular expressions to ensure data integrity and security.
