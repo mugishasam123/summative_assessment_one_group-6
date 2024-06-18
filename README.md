@@ -47,7 +47,7 @@ Number of Tickets: Must be a number between 1 and 10. :wq
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Event Register](https://e-tuze.netlify.app)
+- [Event Register](https://eventregister6.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
